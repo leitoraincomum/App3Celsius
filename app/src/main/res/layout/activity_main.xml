@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Nome e RA de todos os componentes:
+    EVERTON JUNIOR MORENO - 2920482011008
+    FERNANDA CRISTINA DE SOUZA FERNANDES - 2920482011032
+    Objetivo:
+    84. Utilizando os aplicativos da aula:
+    12 – App 3 – Celsius;
+    fazer a seguinte alteração:
+    I. Proponha e faça alterações no Aplicativo (no mínimo 3 alterações).
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_ExibirTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Última temperatura calculada"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_Exibir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtTemperatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a temperatura para conversão"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_Farenheit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Converter para Graus Fahrenheit"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btn_Celsius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Converter para Graus Celsius"
+        android:textAlignment="center" />
+
+</LinearLayout>
